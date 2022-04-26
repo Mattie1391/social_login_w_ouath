@@ -136,8 +136,8 @@ Rails.application.config.sorcery.configure do |config|
   # config.instagram.user_info_mapping = {:email => "username"}
   # config.instagram.access_permissions = ["basic", "public_content", "follower_list", "comments", "relationships", "likes"]
   #
-  config.github.key = "9117bf14db443d6f072d"
-  config.github.secret = "2be4c3da1bf71c392d2f2f8aecb80d7643695d01"
+  config.github.key = "e3874e4e80e8621c58e5"
+  config.github.secret = "e835d6a59793b299f6acd2c47fe18fd067ccf385"
   config.github.callback_url = "https://orangefatcat.herokuapp.com/oauth/callback?provider=github"
   config.github.user_info_mapping = {:email => "name"}
   config.github.scope = ""
