@@ -122,7 +122,7 @@ Rails.application.config.sorcery.configure do |config|
   #
   config.facebook.key = "953208712007536"
   config.facebook.secret = "df07bd17cb7d53dc615da61fbd78ccb2"
-  config.facebook.callback_url = "https://sorcery-oauth2.herokuapp.com/oauth/callback?provider=facebook"
+  config.facebook.callback_url = "https://orangefatcat.herokuapp.com/oauth/callback?provider=facebook"
   config.facebook.user_info_path = "me?fields=email"
   config.facebook.user_info_mapping = {:email => "email"}
   config.facebook.access_permissions = ["email"]
@@ -138,7 +138,7 @@ Rails.application.config.sorcery.configure do |config|
   #
   config.github.key = "9117bf14db443d6f072d"
   config.github.secret = "2be4c3da1bf71c392d2f2f8aecb80d7643695d01"
-  config.github.callback_url = "https://sorcery-oauth2.herokuapp.com/oauth/callback?provider=github"
+  config.github.callback_url = "https://orangefatcat.herokuapp.com/oauth/callback?provider=github"
   config.github.user_info_mapping = {:email => "name"}
   config.github.scope = ""
   #
@@ -160,7 +160,7 @@ Rails.application.config.sorcery.configure do |config|
   #
   config.google.key = "792819929455-lbiurlgfrk56mcjm8jai9grip8ejbtqr.apps.googleusercontent.com"
   config.google.secret = "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"
-  config.google.callback_url = "https://sorcery-oauth2.herokuapp.com/oauth/callback?provider=google"
+  config.google.callback_url = "https://orangefatcat.herokuapp.com/oauth/callback?provider=google"
   config.google.user_info_mapping = {:email => "email", :username => "name"}
   config.google.scope = "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile"
   #
